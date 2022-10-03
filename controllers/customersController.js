@@ -1,4 +1,4 @@
-const db = require('../config/db.manager_customers');
+const db = require('../config/db.manager');
 exports.getAllCustomers = function (req, res) {
 const customersProduct = db.getCustomers().then(results=>{
 console.log(results);
